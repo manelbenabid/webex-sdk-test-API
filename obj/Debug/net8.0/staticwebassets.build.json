@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zS1zGks7EyVLCa1c9BoEUT2Iq5h5JGMR6SOjgm+QwVE=",
+  "Source": "WebextestApi",
+  "BasePath": "_content/WebextestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
