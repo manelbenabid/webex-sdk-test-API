@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebextestApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0ffeedc3a2f5324ba95fd435fd68f171a442c00")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebextestApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebextestApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

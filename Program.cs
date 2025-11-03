@@ -76,6 +76,12 @@ app.MapPost("/api/meetings", async (HttpClient httpClient) =>
 // ===============================================================
 app.MapPost("/api/meetings/join", async (HttpClient client, Dictionary<string, string> body) =>
 {
+    Console.WriteLine("body ==============" );
+    foreach (KeyValuePair<string, string> entry in body)
+        {
+            Console.WriteLine($"Key: {entry.Key}, Value: {entry.Value}");
+        }
+    
     if (!body.TryGetValue("meetingId", out var meetingId) || !body.TryGetValue("password", out var meetingPassword))
         return Results.Problem("Missing meetingId or password");
 
@@ -84,9 +90,11 @@ app.MapPost("/api/meetings/join", async (HttpClient client, Dictionary<string, s
         meetingId,
         password = meetingPassword,
         joinDirectly = false,
-        email = $"guest{Guid.NewGuid()}@example.com",
+        email = $"guest{Guid.NewGuid()}@appid.ciscospark.com",
         displayName = $"Guest {Guid.NewGuid().ToString()[..8]}"
     };
+
+    Console.WriteLine("payload ==============" +  joinPayload);
 
     var joinReq = new HttpRequestMessage(HttpMethod.Post, "https://webexapis.com/v1/meetings/join")
     {

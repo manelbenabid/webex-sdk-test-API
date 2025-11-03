@@ -29,3 +29,4 @@ C:\Users\user\Desktop\WebexTestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagg
 C:\Users\user\Desktop\WebexTestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\user\Desktop\WebexTestApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\user\Desktop\WebexTestApi\obj\Debug\net8.0\WebextestApi.csproj.CopyComplete
+C:\Users\user\Desktop\WebexTestApi\obj\Debug\net8.0\WebextestApi.sourcelink.json
